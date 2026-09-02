@@ -1,0 +1,4 @@
+# dsh-pet bundle patch: mounts the plugin row into the web profile roster.
+- insert:
+    - id: dsh-pet
+      name: dsh-pet
