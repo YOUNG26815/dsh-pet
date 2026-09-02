@@ -1,0 +1,43 @@
+{
+  "name": "dsh-pet",
+  "version": "0.1.0",
+  "description": "工作鸭 · Work Duck: a desktop pet living in your DeepSeek Harness that reacts to your work — typing when the agent works, sleeping when you rest",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "fzstd": "^0.1.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "pet",
+    "tamagotchi",
+    "duck",
+    "fun"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUNG26815/dsh-pet.git"
+  }
+}
