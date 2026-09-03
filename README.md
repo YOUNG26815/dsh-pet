@@ -1,5 +1,7 @@
 # dsh-pet · 工作鸭 🐤
 
+![工作鸭 Work Duck](assets/work-duck.gif)
+
 一只住在你 DeepSeek Harness 输入框上方的小鸭子——**它会感知你在干嘛**。
 
 **English**: Work Duck — a desktop pet living in your DeepSeek Harness that reacts to what you and your agent are doing. Pure SVG + CSS, zero images.
